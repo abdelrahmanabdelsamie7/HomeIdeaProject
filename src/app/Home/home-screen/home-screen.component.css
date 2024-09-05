@@ -1,0 +1,313 @@
+#home .home-item {
+  height: 400px;
+  position: relative;
+}
+#home .home-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+  border-radius: 0px 24px 24px 0px;
+  border-top-left-radius: 100%;
+  background-color: color-mix(in srgb, #266ef1, transparent 50%);
+}
+#home .home-item {
+  background-image: url(../../../assets/Images/home2.jfif);
+  background-size: cover;
+  height: 400px;
+  background-position: center right;
+  border-radius: 20px;
+}
+#home .use {
+  width: 164px;
+  height: 42px;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  border-radius: 32px;
+  transition: all 0.3s ease-in-out;
+}
+#home .use i {
+  font-size: 15px;
+  color: #266ef1;
+}
+#home .use h5 {
+  color: #1e1e1e;
+  padding-top: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Noto Kufi Arabic";
+  line-height: 18.97px;
+}
+#home p {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Noto Kufi Arabic";
+  line-height: 45.53px;
+  top: 235px;
+  direction: rtl;
+  height: 200px;
+}
+#search .serarchList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#search .serarchList .search-item .btn {
+  width: 145px;
+  height: 56px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 0.5px;
+  border: 0.5px solid #9d9d9d;
+  transition: all 0.3s ease-in-out;
+}
+#search .serarchList .search-item .btn.all {
+  background-color: #266ef1;
+  color: #fff;
+  border-radius: 0px 16px 16px 0px;
+}
+@media (max-width: 767.98px) {
+  #search .serarchList .search-item {
+    margin-left: 10px;
+  }
+  #search .serarchList .search-item .btn {
+    width: 120px !important;
+    height: 50px;
+
+    font-size: 10px;
+  }
+  #search .serarchList .search-item .btn.all {
+    width: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #search .serarchList .search-item {
+    margin: 4px 10px;
+  }
+  #search .serarchList .search-item .btn {
+    width: 120px;
+    height: 48px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 992px) {
+  #search .serarchList .search-item {
+    margin: 10px;
+  }
+  #search .serarchList .search-item .btn {
+    width: 145px;
+    height: 56px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  #search .serarchList .search-item {
+    margin: 10px;
+  }
+  #search .serarchList .search-item .btn {
+    width: 145px;
+    height: 56px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1400px) {
+  #search .serarchList .search-item {
+    margin: 10px;
+  }
+  #search .serarchList .search-item .btn {
+    width: 145px;
+    height: 56px;
+    font-size: 12px;
+  }
+}
+/* Start Product Section  */
+#products .product-item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#products .product-item .product-info {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 90%;
+  padding: 15px;
+  background: #fff;
+  border-radius: 18px;
+  z-index: 2;
+}
+#products .product-item .product-info .title {
+  font-size: 14px;
+  font: 600;
+  font-family: "Noto Kufi Arabic";
+  color: #303030;
+}
+#products .product-item .product-info .date {
+  font-size: 8px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  color: #303030;
+}
+#products .product-item .product-info h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  line-height: 34.51px;
+  color: #303030;
+}
+#products .product-item .product-info .btn {
+  width: 85px;
+  margin: 0px 2px;
+  height: 40px;
+  font-size: 8px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  border-radius: 4px;
+  background-color: #4f4f4f;
+  color: #fff;
+}
+#products .product-item .product-info .btn i {
+  font-size: 8px;
+  padding: 0px 4px;
+}
+#products .product-item img {
+  width: 100%;
+  height: auto;
+}
+#products .product-item .new {
+  position: absolute;
+  background-color: #4f4f4f;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  width: 64px;
+  height: 24px;
+  top: 13px;
+  left: 12px;
+  text-align: center;
+  padding-top: 5px;
+}
+#products .product-item .heart {
+  position: absolute;
+  top: 9px;
+  left: 416px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#products .product-item .heart i {
+  display: inline-block;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 7px;
+}
+@media (max-width: 767.98px) {
+  #home .home-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 24px 24px 0px;
+    border-top-left-radius: 100%;
+    background-color: color-mix(in srgb, #266ef1, transparent 50%);
+  }
+  #home p {
+    font-size: 18x;
+    line-height: 38px;
+    left: 20px;
+    top: 250px;
+    width: auto;
+  }
+  .home-item {
+    height: 300px;
+  }
+  .product-item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .product-info {
+    position: static;
+    margin-top: 10px;
+  }
+  #products .product-item .new {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .product-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-info {
+    position: static;
+    margin-top: 0;
+  }
+  #home .home-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 0px 24px 24px 0px;
+    border-top-left-radius: 100%;
+    background-color: color-mix(in srgb, #266ef1, transparent 50%);
+  }
+  #home p {
+    font-size: 25px;
+    line-height: 48px;
+    left: 205px !important;
+    top: 250px;
+    width: auto;
+  }
+  .home-item {
+    height: 300px;
+  }
+}
+@media (min-width: 1400px) {
+  #home p {
+    position: absolute;
+    font-size: 29px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Noto Kufi Arabic";
+    line-height: 55.53px;
+    top: 230px;
+    left: 985px;
+    direction: rtl;
+    width: auto;
+
+  }
+}
+@media (max-width: 575.98px) {
+  #home p {
+    font-size: 20px;
+    left: 20px;
+    width: auto;
+  }
+
+  #search .serarchList .search-item .btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .home-item {
+    height: 300px;
+  }
+}
+/* End Product Section  */
+

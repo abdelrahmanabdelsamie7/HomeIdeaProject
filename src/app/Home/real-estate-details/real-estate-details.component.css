@@ -1,0 +1,70 @@
+.carousel-inner img {
+  width: 100%;
+  max-height: 700px;
+  border-radius: 24px;
+}
+#home #carouselExampleControls {
+  height: 750px;
+}
+#home h1 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  line-height: 60.7px;
+}
+#home h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  color: #266ef1;
+  line-height: 45.53px;
+  direction: rtl;
+}
+#home p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  color: #303030;
+  line-height: 37.94px;
+  direction: rtl;
+  margin-bottom: 70px;
+}
+#home h4 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  color: #266ef1;
+  line-height: 45.53px;
+  direction: rtl;
+}
+.mx-5 {
+  margin: 20px;
+  border: 0.5px solid #9d9d9d;
+}
+table tr td {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  color: #303030;
+  line-height: 34.15px;
+  direction: rtl;
+}
+table tr td.data {
+  direction: ltr;
+}
+.btn {
+  width: 232px;
+  height: 72px;
+  border-radius: 64px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  line-height: 34.15px;
+  margin: 10px;
+}
+.btn.phone {
+  background-color: #248fe3;
+}
+.btn.whatsapp {
+  background-color: #29a71a;
+}

@@ -1,0 +1,63 @@
+#home .logo img {
+  width: 48px;
+  height: 48px;
+}
+#home .logo {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Noto Kufi Arabic";
+  color: #1e1e1e;
+  line-height: 30.35px;
+  text-decoration: none !important;
+}
+#home .home-item h1 {
+  margin: 20px 0px 80px 0px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  line-height: 41.73px;
+  text-align: center;
+  color: #333333;
+}
+#home .home-item p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  color: #303030;
+  line-height: 30.35px;
+  text-align: center;
+}
+#home .home-item h2 {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  line-height: 30.35px;
+  color: #6480f7;
+  text-decoration: none;
+  text-align: center;
+  direction: rtl;
+}
+#home .home-item .form-group input {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  text-indent: 17px;
+  color: #303030;
+  font-size: 32px;
+  font-weight: 700;
+}
+#home .home-item .form-group .btn {
+  width: 154px;
+  height: 56px;
+  border: 1px solid #303030;
+  border-radius: 16px;
+  background-color: #303030;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Noto Kufi Arabic";
+  margin: 120px auto;
+  transition: all 0.3s ease-out;
+}

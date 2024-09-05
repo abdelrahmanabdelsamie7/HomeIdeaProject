@@ -1,0 +1,257 @@
+/* Start Home Section */
+#home {
+  min-height: 70vh;
+}
+
+/* Head Of Home */
+#home .homeHead {
+  direction: rtl;
+  font-size: 48px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #f1d4cd, #8998c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#paragrah {
+  text-align: start;
+  direction: rtl;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34.49px;
+  font-family: "Noto Kufi Arabic";
+}
+
+@media screen and (min-width: 1400px) {
+  #paragrah {
+    width: 880px !important;
+    height: 102px;
+  }
+}
+
+#home .homeImage {
+  background-color: #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 200px;
+  position: relative;
+}
+
+#home .homeImage img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: 22px;
+}
+
+#home .home-item {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 32px 32px 0px 0px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #f6f6f6;
+}
+
+#home .home-item h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#home .home-item p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Kufi Arabic";
+  color: #4a4a4a;
+  direction: rtl;
+  padding-top: 20px;
+}
+
+#home .home-item .home-button {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin: 10px 0px 40px 0;
+}
+
+#home .home-item .btn {
+  background-color: #eaeaea;
+  font-size: 16px;
+  font-family: "Noto Kufi Arabic";
+  font-weight: 500;
+  padding: 8px 50px;
+}
+
+#home .home-item h3 {
+  color: #1e1e1e;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Noto Kufi Arabic";
+}
+
+/* Start Home Section */
+#home .main {
+  position: relative;
+}
+#home .main .mainImage {
+  width: 523px;
+  height: 650px;
+  display: block;
+  margin: 0 auto;
+}
+#home .subImage {
+  position: absolute;
+  width: 167px;
+  height: 440px;
+  top: 75px;
+  left: 45%;
+  transform: translateX(-50%);
+  border-radius: 32px;
+}
+@media screen and (max-width: 1400px) {
+  #home .main {
+    position: relative;
+  }
+  #home .main .mainImage {
+    width: 523px;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+  #home .subImage {
+    position: absolute;
+    width: 167px;
+    height: 440px;
+    top: 75px;
+    left: 53%;
+    transform: translateX(-50%);
+    border-radius: 32px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #home .main {
+    position: relative;
+  }
+  #home .main .mainImage {
+    width: 523px;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+  #home .subImage {
+    position: absolute;
+    width: 167px;
+    height: 440px;
+    top: 75px;
+    left: 64%;
+    transform: translateX(-50%);
+    border-radius: 32px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #home .main {
+    position: relative;
+  }
+  #home .main .mainImage {
+    width: 523px;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+  #home .subImage {
+    position: absolute;
+    width: 167px;
+    height: 440px;
+    top: 75px;
+    left: 88%;
+    transform: translateX(-50%);
+    border-radius: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #home .main {
+    position: relative;
+  }
+  #home .main .mainImage {
+    width: 523px;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+  }
+  #home .subImage {
+    position: absolute;
+    width: 167px;
+    height: 440px;
+    top: 75px;
+    left: 36%;
+    transform: translateX(-50%);
+    border-radius: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home .main .mainImage {
+    width: 300px;
+    height: 375px;
+  }
+
+  #home .subImage {
+    width: 94px;
+    height: 255px;
+    left: 188px;
+    top: 44px;
+    border-radius: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #paragrah {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #home .home-item {
+    padding: 20px;
+    width: 100%;
+    max-width: none;
+  }
+
+  #home .home-item h5 {
+    font-size: 20px;
+  }
+
+  #home .home-item p {
+    font-size: 14px;
+  }
+
+  #home .home-item h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #paragrah {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  #home .home-item {
+    padding: 15px;
+  }
+
+  #home .home-item h5 {
+    font-size: 18px;
+  }
+
+  #home .home-item p {
+    font-size: 12px;
+  }
+
+  #home .home-item h3 {
+    font-size: 16px;
+  }
+}

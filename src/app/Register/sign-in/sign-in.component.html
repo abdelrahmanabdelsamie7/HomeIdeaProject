@@ -1,0 +1,54 @@
+<!-- Start Home Of Sign In -->
+<section id="home">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 sigin-item-content">
+        <a class="navbar-brand" routerLink="/Home"
+          ><img src="../../../assets/Images/logo.png" alt="" />
+          Home Idea
+        </a>
+        <div class="d-flex flex-column justify-content-center">
+          <h1>تسجيل الدخول</h1>
+          <div class="form-group text-center sigin-item-content">
+            <div class="input-container">
+              <input
+                type="email"
+                class="email my-3"
+                placeholder="أدخل الإيميل"
+                dir="rtl"
+              />
+              <span class="email-icon"><i class="bi bi-envelope"></i></span>
+            </div>
+
+            <div class="input-container">
+              <input
+                type="password"
+                class="password my-3"
+                placeholder="أدخل اسم المرور"
+                dir="rtl"
+              />
+              <span class="password-icon"><i class="bi bi-lock-fill"></i></span>
+            </div>
+
+            <a routerLink="/reset_password" class="text-center d-block my-3"
+              >هل نسيت كلمة المرور ؟</a
+            >
+            <label for="">تذكرني لمدة شهر</label>
+            <input type="checkbox" class="my-4 mx-2" id="" />
+            <button class="btn d-block mx-auto">تسجيل الدخول</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-2 home-image">
+        <div class="sigin-item-img"></div>
+        <button class="btn signUp" routerLink="/signUp">تسجيل حساب</button>
+        <p>
+          مرحبا بك في عائلة Home Idea <br />ابحث عن منزلك المثالي بكل سهولة
+          وسرعة مع Home Idea للعقارات، حيث تبدأ رحلتك إلى بيت أحلامك بنقرة
+          واحدة!"
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Home Of Sign In -->

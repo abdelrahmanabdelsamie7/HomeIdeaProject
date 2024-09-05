@@ -1,0 +1,126 @@
+footer {
+  margin-top: 40px;
+  padding: 30px 30px 7px 30px;
+  background-color: #4a4a4a;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 226px;
+  border: 0px 0px 20px 20px;
+}
+footer .container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+footer img {
+  width: 64px;
+  height: 64px;
+}
+footer h5 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Noto Kufi Arabic";
+  line-height: 41.73px;
+  color: #fff;
+}
+footer .footer-content {
+  margin-top: auto;
+}
+footer .row {
+  margin: 0;
+}
+footer p {
+  direction: rtl;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Noto Kufi Arabic";
+  font-weight: 500;
+}
+footer p span {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  font-weight: 500;
+}
+footer .icons {
+  color: #fff;
+  font-size: 1rem;
+}
+footer .icons i {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+}
+footer .foot-item p,
+footer .info p {
+  font-family: "Noto Kufi Arabic";
+  font-size: 0.875rem;
+  direction: rtl;
+}
+
+@media (max-width: 576px) {
+  footer {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .head-foot h5 {
+    width: 40%;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Noto Kufi Arabic";
+  }
+  .head-foot p {
+    width: 60%;
+    margin-top: 5px;
+    font-size: 7px;
+    font-weight: 500;
+    font-family: "Noto Kufi Arabic";
+  }
+  .head-foot p span {
+    font-size: 7px;
+  }
+  footer .icons {
+    width: 100%;
+    text-align: center;
+  }
+  footer .icons i {
+    padding: 0.55rem;
+    font-size: 14px;
+  }
+  .info {
+    margin: 9px 0px;
+  }
+  .info p {
+    font-size: 7px;
+    font-weight: 500;
+    font-family: "Noto Kufi Arabic";
+    text-align: start;
+  }
+  .foot-item {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  footer h5 {
+    font-size: 1.75rem; /* Responsive size */
+  }
+
+  footer p {
+    font-size: 1.125rem; /* Responsive size */
+  }
+
+  footer .icons {
+    font-size: 1.25rem; /* Responsive size */
+  }
+
+  footer .icons i {
+    padding: 1rem; /* Adjust padding for responsiveness */
+  }
+
+  footer .foot-item p,
+  footer .info p {
+    font-size: 1rem; /* Responsive size */
+  }
+}
