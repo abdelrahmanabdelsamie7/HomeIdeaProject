@@ -33,14 +33,12 @@
 .sigin-item-content .form-group {
   position: relative;
 }
-
 .input-container {
   position: relative;
   width: 100%;
-  max-width: 500px; /* Maintain the original width on larger screens */
-  margin: 0 auto 15px; /* Center align */
+  max-width: 500px;
+  margin: 0 auto 15px;
 }
-
 .sigin-item-content .form-group input.my-3 {
   width: 100%;
   height: 58px;
@@ -55,18 +53,18 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 20px; /* Adjust right position as needed */
+  right: 20px;
 }
 
 @media (max-width: 576px) {
   .sigin-item-content .form-group input.my-3 {
-    max-width: 100%; /* Allow input to take full width of the container on smaller screens */
-    text-indent: 40px; /* Adjust text indent for smaller screens */
+    max-width: 100%;
+    text-indent: 40px;
   }
 
   .sigin-item-content .form-group .email-icon,
   .sigin-item-content .form-group .password-icon {
-    right: 10px; /* Adjust icon position for smaller screens */
+    right: 10px;
   }
 }
 
@@ -178,7 +176,6 @@
     font-weight: 700;
     font-family: var(--font-family);
     color: #fff;
-    /* line-height: 34.51px; */
   }
   .sigin-item-content .form-group input.my-3 {
     width: 350px;
@@ -300,7 +297,6 @@
     right: 78px;
   }
 }
-/* General styles for responsiveness */
 #home,
 .sigin-item-content {
   min-height: 70vh;
@@ -309,8 +305,8 @@
 .input-container {
   position: relative;
   width: 100%;
-  max-width: 500px; /* Maintain the original width on larger screens */
-  margin: 0 auto 15px; /* Center align */
+  max-width: 500px;
+  margin: 0 auto 15px;
 }
 
 .sigin-item-content .form-group input.my-3 {
@@ -322,15 +318,13 @@
   box-sizing: border-box;
 }
 
-/* Icon positioning */
 .sigin-item-content .form-group .email-icon,
 .sigin-item-content .form-group .password-icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 20px; /* Adjust right position as needed */
+  right: 20px;
 }
-
 /* Tablet view (768px to 992px) */
 @media (max-width: 992px) {
   .sigin-item-content .form-group input.my-3 {
@@ -342,39 +336,36 @@
     width: 300px; /* Adjust text container width */
   }
 }
-
 /* Mobile view (576px to 768px) */
 @media (max-width: 768px) {
   .sigin-item-content .form-group input.my-3 {
-    max-width: 85%; /* Reduce width for smaller tablets */
+    max-width: 85%;
   }
 
   #home .home-image p {
     font-size: 14px;
-    width: 250px; /* Narrower text container */
+    width: 250px;
   }
 
   .sigin-item-content h1 {
-    font-size: 20px; /* Smaller heading */
+    font-size: 20px;
   }
 
   .sigin-item-content .form-group .email-icon,
   .sigin-item-content .form-group .password-icon {
-    right: 15px; /* Adjust icon position */
+    right: 50px;
   }
 }
-
-/* Extra small devices (max-width: 576px) */
 @media (max-width: 576px) {
   #home,
   .sigin-item-content {
-    min-height: auto; /* Adjust min-height */
+    min-height: auto;
   }
 
   .sigin-item-content .form-group input.my-3 {
     max-width: 100%; /* Full width for mobile */
-    height: 50px; /* Slightly smaller height */
-    text-indent: 40px; /* Adjust text indent */
+    height: 50px;
+    text-indent: 40px;
   }
 
   #home .home-image p {
@@ -384,6 +375,6 @@
 
   .sigin-item-content .form-group .email-icon,
   .sigin-item-content .form-group .password-icon {
-    right: 10px; /* Adjust icon position for mobile */
+    right: 10px;
   }
 }

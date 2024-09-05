@@ -1,11 +1,15 @@
 .carousel-inner img {
   width: 100%;
+  height: auto; /* Ensures image scales proportionally */
   max-height: 700px;
   border-radius: 24px;
 }
-#home #carouselExampleControls {
-  height: 750px;
+#home {
+  padding: 20px;
 }
+/* #home #carouselExampleControls {
+  height: 750px;
+} */
 #home h1 {
   font-size: 32px;
   font-weight: 600;
@@ -37,6 +41,10 @@
   line-height: 45.53px;
   direction: rtl;
 }
+.table {
+  width: 100%;
+  overflow-x: auto;
+}
 .mx-5 {
   margin: 20px;
   border: 0.5px solid #9d9d9d;
@@ -53,18 +61,53 @@ table tr td.data {
   direction: ltr;
 }
 .btn {
-  width: 232px;
-  height: 72px;
+  width: 100%;
+  max-width: 232px;
+  height: auto;
+  padding: 10px 20px;
   border-radius: 64px;
   font-size: 18px;
   font-weight: 600;
   font-family: "Noto Kufi Arabic";
   line-height: 34.15px;
   margin: 10px;
+  color: #fff;
 }
 .btn.phone {
   background-color: #248fe3;
 }
 .btn.whatsapp {
   background-color: #29a71a;
+}
+@media (max-width: 576px) {
+ 
+  .carousel-inner img {
+    max-height: 400px;
+  }
+
+  /* Stack elements vertically for smaller screens */
+  .d-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .mx-lg-5 {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    max-height: 500px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    text-align: center;
+  }
 }

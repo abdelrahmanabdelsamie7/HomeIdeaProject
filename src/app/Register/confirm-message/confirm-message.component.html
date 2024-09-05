@@ -5,53 +5,93 @@
       Home Idea
     </h2>
     <div class="home-item">
-      <h1>
-        تم إنشاء الحساب بنجاح<br />
-        قم بتأكيد حسابك من الرسالة المرسلة عبر الايميل
-      </h1>
-      <p>قم بإدخال رقم التأكيد الخاص بك</p>
-      <div class="form-group">
-        <div class="d-flex justify-content-center">
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
-          />
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
-          />
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
-          />
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
-          />
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
-          />
-          <input
-            type="number"
-            class="number my-3 mx-2 text-center"
-            placeholder="*"
-            dir="rtl"
+      <div class="row g-0">
+        <div class="col-md-11">
+          <h1>
+            تم إنشاء الحساب بنجاح<br />
+            قم بتأكيد حسابك من الرسالة المرسلة عبر الايميل
+          </h1>
+          <p>قم بإدخال رقم التأكيد الخاص بك</p>
+          <div class="form-group">
+            <div class="d-flex justify-content-center">
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+              <input
+                type="number"
+                class="number my-3 mx-2 text-center"
+                placeholder="*"
+                dir="rtl"
+              />
+            </div>
+            <h2>إعادة إرسال الرقم !</h2>
+            <button class="btn d-block mx-auto">تاكيد العملية</button>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <img
+            src="../../../assets/Images/image-from-rawpixel-id-15247159-png.png"
+            alt=""
+            class="img-fluid"
           />
         </div>
-        <h2>إعادة إرسال الرقم !</h2>
-        <button class="btn d-block mx-auto">تاكيد العملية</button>
       </div>
+      <!-- <div *ngIf="isSucess; then Success; else Fail"></div> -->
     </div>
   </div>
 </section>
+<ng-template #Success>
+  <div class="model">
+    <div class="model-item">
+      <div class="checkIcon">
+        <div class="subIcon">
+          <i class="bi bi-check-lg"></i>
+        </div>
+      </div>
+      <h1 class="text-center">تمت العملية بنجاح الرجاء تسجيل الدخول</h1>
+      <button class="d-block mx-auto btn" routerLink="/signIn">
+        تسجيل الدخول
+      </button>
+    </div>
+  </div>
+</ng-template>
+<ng-template #Fail>
+  <div class="model">
+    <div class="model-item">
+      <div class="checkIcon Fail">
+        <div class="subIcon Fail">
+          <i class="bi bi-x-lg"></i>
+        </div>
+      </div>
+      <h1 class="text-center">لم تتم العملية بنجاح ... حاول مرة أخري</h1>
+      <button class="d-block mx-auto btn" routerLink="/signIn">موافق</button>
+    </div>
+  </div>
+</ng-template>
