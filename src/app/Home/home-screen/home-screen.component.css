@@ -246,6 +246,24 @@
   #products .product-item .new {
     display: none;
   }
+  #products .product-item .product-info .btn {
+    width: 77px;
+    margin: 3px 2px;
+    height: 33px;
+    font-size: 7px;
+    font-weight: 500;
+    font-family: "Noto Kufi Arabic";
+    border-radius: 4px;
+    background-color: #4f4f4f;
+    color: #fff;
+  }
+  #products .product-item .product-info h5 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Noto Kufi Arabic";
+    line-height: 34.51px;
+    color: #303030;
+  }
 }
 @media (min-width: 768px) {
   .product-item {
@@ -290,7 +308,6 @@
     left: 985px;
     direction: rtl;
     width: auto;
-
   }
 }
 @media (max-width: 575.98px) {
@@ -310,4 +327,3 @@
   }
 }
 /* End Product Section  */
-

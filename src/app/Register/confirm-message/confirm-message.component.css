@@ -48,8 +48,8 @@
 }
 
 #home .home-item .form-group input {
-  width: 64px;
-  height: 64px;
+  max-width: 64px;
+  max-height: 64px;
   border: 1px solid #e8e8e8;
   border-radius: 16px;
   text-indent: 17px;
@@ -214,5 +214,15 @@
 
   .subIcon i {
     font-size: 16px;
+  }
+  #home .home-item .form-group input {
+    max-width: 48px;
+    max-height: 52px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    text-indent: 8px;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 700;
   }
 }

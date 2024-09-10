@@ -6,7 +6,7 @@
   font-family: "Noto Kufi Arabic";
 }
 /* Image Logo */
-.navbar-brand img {
+img {
   width: 48px;
   height: 48px;
 }
@@ -72,3 +72,44 @@
   position: absolute;
 }
 /* End Header */
+@media (max-width: 768px) {
+  /* Ensure brand and notifications are in the same row */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between logo and text */
+    flex-grow: 1; /* Allow brand to take available space */
+  }
+
+  /* Keep logo and text aligned properly within navbar-brand */
+  .navbar-brand img {
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+    width: 48px;
+    height: 48px;
+  }
+
+  /* Notifications aligned on the right */
+  .notifications {
+    display: none !important;
+  }
+
+  /* Move navbar-nav to a new row */
+  .navbar-collapse {
+    display: block;
+    width: 100%;
+  }
+
+  /* Align the navbar-nav as its own row */
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  /* Button adjustments */
+  .navbar-nav .nav-item .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

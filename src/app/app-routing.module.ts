@@ -9,6 +9,7 @@ import { ResetPasswordOneComponent } from './ResetPassword/reset-password-one/re
 import { ResetPasswordTwoComponent } from './ResetPassword/reset-password-two/reset-password-two.component';
 import { ResetPasswordThreeComponent } from './ResetPassword/reset-password-three/reset-password-three.component';
 import { RealEstateDetailsComponent } from './Home/real-estate-details/real-estate-details.component';
+import { FilterSystem1Component } from './Filtering/filter-system1/filter-system1.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'reset_password', component: ResetPasswordOneComponent },
   { path: 'confirm_code', component: ResetPasswordTwoComponent },
   { path: 'change_password', component: ResetPasswordThreeComponent },
+  { path: 'filter', component: FilterSystem1Component },
 ];
 
 @NgModule({

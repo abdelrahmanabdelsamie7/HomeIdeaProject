@@ -194,6 +194,19 @@
     top: 288px;
     right: 207px;
   }
+  .sigin-item-content .form-group .btn {
+    width: 345px;
+    height: 56px;
+    background-color: #303030;
+    transition: all 0.3s ease-out;
+    box-sizing: 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    text-align: center;
+    margin: 40px 0px;
+  }
 }
 @media only screen and (max-width: 992px) {
   #home .home-image {
@@ -279,10 +292,7 @@
     color: #fff;
     /* line-height: 34.51px; */
   }
-  .sigin-item-content .form-group input.my-3 {
-    width: 350px;
-    height: 50px;
-  }
+
   .sigin-item-content {
     position: relative;
   }
@@ -363,7 +373,7 @@
   }
 
   .sigin-item-content .form-group input.my-3 {
-    max-width: 100%; /* Full width for mobile */
+    max-width: 90%; /* Full width for mobile */
     height: 50px;
     text-indent: 40px;
   }
@@ -375,6 +385,6 @@
 
   .sigin-item-content .form-group .email-icon,
   .sigin-item-content .form-group .password-icon {
-    right: 10px;
+    right: 27px;
   }
 }

@@ -80,7 +80,6 @@ table tr td.data {
   background-color: #29a71a;
 }
 @media (max-width: 576px) {
- 
   .carousel-inner img {
     max-height: 400px;
   }
@@ -92,12 +91,29 @@ table tr td.data {
   }
 
   .btn {
-    width: 100%;
-    margin: 5px 0;
+    width: 50%;
+    margin: 5px auto;
   }
 
   .mx-lg-5 {
     margin: 10px;
+  }
+  #home h5 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Noto Kufi Arabic";
+    color: #266ef1;
+    line-height: 45.53px;
+    direction: rtl;
+  }
+  #home p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Noto Kufi Arabic";
+    color: #303030;
+    line-height: 30.94px;
+    direction: rtl;
+    margin-bottom: 70px;
   }
 }
 
