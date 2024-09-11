@@ -248,7 +248,8 @@
   }
 
   #home .home-item p {
-    font-size: 12px;
+    font-size: 9px;
+    font-weight: 500;
   }
 
   #home .home-item h3 {
@@ -261,12 +262,23 @@
     background-image: linear-gradient(to right, #f1d4cd, #8998c9);
   }
   #home .subImage {
-  position: absolute;
-  width: 95px;
-  height: 252px;
-  top: 44px;
-  left: 38%;
-  transform: translateX(-50%);
-  border-radius: 18px;
+    position: absolute;
+    width: 95px;
+    height: 252px;
+    top: 44px;
+    left: 39%;
+    transform: translateX(-50%);
+    border-radius: 18px;
+  }
 }
+@media (max-width: 400px) {
+  #home .subImage {
+    position: absolute;
+    width: 95px;
+    height: 252px;
+    top: 44px;
+    left: 38%;
+    transform: translateX(-50%);
+    border-radius: 18px;
+  }
 }

@@ -60,24 +60,57 @@ table tr td {
 table tr td.data {
   direction: ltr;
 }
-.btn {
-  width: 100%;
-  max-width: 232px;
-  height: auto;
-  padding: 10px 20px;
-  border-radius: 64px;
+#vDiv {
+  height: 106px !important;
+  border: 0.5px solid #9d9d9d;
+  border-radius: 16px;
+  padding: 0px 10px;
+  align-items: center;
+}
+#vDiv .headlink {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Noto Kufi Arabic";
   line-height: 34.15px;
+  color: #303030;
+}
+#vDiv .link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34.15px;
+  font-family: "Noto Kufi Arabic";
+  color: #266ef1;
+  margin-bottom: 20px;
+}
+#vDiv span {
+  color: #9d9d9d;
+  font-size: 40px;
+  display: inline-block;
+}
+#vDiv i {
+  display: inline-block;
+  color: red;
+  font-size: 35px;
   margin: 10px;
-  color: #fff;
 }
-.btn.phone {
-  background-color: #248fe3;
+#home .invist {
+  height: 106px !important;
+  border: 0.5px solid #9d9d9d;
+  border-radius: 16px;
+  padding: 0px 10px;
+  align-items: center;
 }
-.btn.whatsapp {
+
+#home .invist .btn {
+  width: 180px;
+  height: 64px;
+  border-radius: 64px;
   background-color: #29a71a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Noto Kufi Arabic";
+  line-height: 30.35px;
 }
 @media (max-width: 576px) {
   .carousel-inner img {
@@ -125,5 +158,8 @@ table tr td.data {
   .d-flex {
     flex-direction: column;
     text-align: center;
+  }
+  #vDiv .headlink {
+    display: none;
   }
 }

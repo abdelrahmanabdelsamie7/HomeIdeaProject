@@ -19,10 +19,6 @@
   width: 48px;
   height: 48px;
 }
-#home,
-.sigin-item-content {
-  min-height: 70vh;
-}
 .sigin-item-content h1 {
   margin: 50px;
   font-size: 24px;
@@ -33,21 +29,6 @@
 .sigin-item-content .form-group {
   position: relative;
 }
-.input-container {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto 15px;
-}
-.sigin-item-content .form-group input.my-3 {
-  width: 100%;
-  height: 58px;
-  border: 1px solid #e8e8e8;
-  border-radius: 18px;
-  text-indent: 60px;
-  box-sizing: border-box;
-}
-
 .sigin-item-content .form-group .email-icon,
 .sigin-item-content .form-group .password-icon {
   position: absolute;
@@ -55,7 +36,6 @@
   transform: translateY(-50%);
   right: 20px;
 }
-
 @media (max-width: 576px) {
   .sigin-item-content .form-group input.my-3 {
     max-width: 100%;
@@ -67,7 +47,6 @@
     right: 10px;
   }
 }
-
 .sigin-item-content .form-group span i {
   font-size: 18px;
   color: #6480f7;
@@ -123,14 +102,6 @@
   top: 30px;
   right: 50px;
 }
-#home .home-image .signIn {
-  position: absolute;
-  color: #1e1e1e;
-  background-color: #fff;
-  border-radius: 32px;
-  top: 30px;
-  right: 190px;
-}
 #home .home-image p {
   position: absolute;
   width: 508px;
@@ -144,7 +115,6 @@
   color: #fff;
   line-height: 34.51px;
 }
-
 @media only screen and (max-width: 768px) {
   #home .home-image .signUp {
     position: absolute;
@@ -212,19 +182,6 @@
   #home .home-image {
     margin: 20px 0px;
   }
-  #home .home-image p {
-    position: absolute;
-    width: 325px;
-    height: 126px;
-    bottom: 0px;
-    right: 23px;
-    direction: rtl;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: var(--font-family);
-    color: #fff;
-    line-height: 30px;
-  }
   .sigin-item-content .form-group input.my-3 {
     width: 385px;
     height: 56px;
@@ -242,6 +199,7 @@
     top: 288px;
     right: 46px;
   }
+ 
 }
 @media only screen and (max-width: 1200px) {
   #home .home-image p {
@@ -311,14 +269,12 @@
 .sigin-item-content {
   min-height: 70vh;
 }
-
 .input-container {
   position: relative;
   width: 100%;
   max-width: 500px;
   margin: 0 auto 15px;
 }
-
 .sigin-item-content .form-group input.my-3 {
   width: 100%; /* Ensure full width of the container */
   height: 58px;
@@ -327,7 +283,6 @@
   text-indent: 60px;
   box-sizing: border-box;
 }
-
 .sigin-item-content .form-group .email-icon,
 .sigin-item-content .form-group .password-icon {
   position: absolute;
@@ -335,32 +290,28 @@
   transform: translateY(-50%);
   right: 20px;
 }
-/* Tablet view (768px to 992px) */
+
 @media (max-width: 992px) {
   .sigin-item-content .form-group input.my-3 {
     max-width: 90%; /* Reduce width slightly for tablets */
   }
-
   #home .home-image p {
-    font-size: 14px; /* Smaller font size */
-    width: 300px; /* Adjust text container width */
+    display: none;
+  }
+  #home .home-image .signUp {
+    display: none;
+  }
+   #home .sigin-item-img {
+    display: none;
   }
 }
-/* Mobile view (576px to 768px) */
 @media (max-width: 768px) {
   .sigin-item-content .form-group input.my-3 {
     max-width: 85%;
   }
-
-  #home .home-image p {
-    font-size: 14px;
-    width: 250px;
-  }
-
   .sigin-item-content h1 {
     font-size: 20px;
   }
-
   .sigin-item-content .form-group .email-icon,
   .sigin-item-content .form-group .password-icon {
     right: 50px;
@@ -371,16 +322,10 @@
   .sigin-item-content {
     min-height: auto;
   }
-
   .sigin-item-content .form-group input.my-3 {
     max-width: 90%; /* Full width for mobile */
     height: 50px;
     text-indent: 40px;
-  }
-
-  #home .home-image p {
-    font-size: 12px; /* Smaller font size */
-    width: 350px; /* Narrower text container */
   }
 
   .sigin-item-content .form-group .email-icon,

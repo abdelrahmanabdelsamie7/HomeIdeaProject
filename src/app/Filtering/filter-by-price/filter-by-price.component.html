@@ -5,7 +5,9 @@
   <section id="search">
     <div class="container-fluid">
       <ul class="d-flex flex-wrap serarchList d-none d-md-flex">
-        <li class="search-item"><button class="btn" routerLink="/filter_price">حسب السعر</button></li>
+        <li class="search-item">
+          <button class="btn" routerLink="/filter_price">حسب السعر</button>
+        </li>
         <li class="search-item">
           <button class="btn">حسب الملكية العقارية</button>
         </li>
@@ -29,20 +31,22 @@
 
   <!-- Google Map -->
   <div class="google-map mt-md-5">
-    <google-map
-      width="100%"
-      [center]="center"
-      [zoom]="zoom"
-      (mapClick)="onMapClick($event)"
-    >
-      <map-marker
-        [icon]="customIcon"
-        *ngFor="let item of AllPostions"
-        [position]="item"
-      ></map-marker>
+    <google-map width="100%" [center]="center">
+      <map-marker [icon]="customIcon"></map-marker>
     </google-map>
   </div>
-  <!-- Button at the Bottom -->
+
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <h3 class="text-center">حدد نطاق السعر</h3>
+      <div class="price-selector">
+        <input type="number" placeholder="100000000 $" id="" />
+        إلي
+        <input type="number" placeholder="100 $" id="" />
+      </div>
+      <button id="confirm-button" class="d-block mx-auto">موافق</button>
+    </div>
+  </div>
   <div class="d-flex justify-content-between listOfProducts">
     <button class="btn">قائمة العقارات</button>
     <button class="btn btn-icon mx-3">

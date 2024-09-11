@@ -10,6 +10,9 @@ import { ResetPasswordTwoComponent } from './ResetPassword/reset-password-two/re
 import { ResetPasswordThreeComponent } from './ResetPassword/reset-password-three/reset-password-three.component';
 import { RealEstateDetailsComponent } from './Home/real-estate-details/real-estate-details.component';
 import { FilterSystem1Component } from './Filtering/filter-system1/filter-system1.component';
+import { FilterTypeComponent } from './Filtering/filter-type/filter-type.component';
+import { FilterNumOfRoomsComponent } from './Filtering/filter-num-of-rooms/filter-num-of-rooms.component';
+import { FilterByPriceComponent } from './Filtering/filter-by-price/filter-by-price.component';
 
 const routes: Routes = [
   { path: '', component: HomeScreenComponent },
@@ -29,6 +32,9 @@ const routes: Routes = [
   { path: 'confirm_code', component: ResetPasswordTwoComponent },
   { path: 'change_password', component: ResetPasswordThreeComponent },
   { path: 'filter', component: FilterSystem1Component },
+  { path: 'filter_type', component: FilterTypeComponent },
+  { path: 'filter_rooms', component: FilterNumOfRoomsComponent },
+  { path: 'filter_price', component: FilterByPriceComponent },
 ];
 
 @NgModule({

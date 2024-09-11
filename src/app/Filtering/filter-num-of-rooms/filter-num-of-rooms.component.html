@@ -13,15 +13,11 @@
           <button class="btn">حسب حالة البناء</button>
         </li>
         <li class="search-item"><button class="btn">حسب التأثيث</button></li>
-        <li class="search-item">
-          <button class="btn" routerLink="/filter_rooms">حسب عدد الغرف</button>
-        </li>
-        <li class="search-item">
-          <button class="btn" routerLink="/filter_type">حسب النوع</button>
-        </li>
+        <li class="search-item"><button class="btn"routerLink="/filter_rooms">حسب عدد الغرف</button></li>
+        <li class="search-item"><button class="btn"routerLink="/filter_type" >حسب النوع</button></li>
         <li class="search-item"><button class="btn">حسب القسم</button></li>
         <li class="search-item"><button class="btn">للايجار</button></li>
-        <li class="search-item"><button class="btn">للبيع</button></li>
+        <li class="search-item"><button class="btn" >للبيع</button></li>
         <li class="search-item"><button class="btn all">الكل</button></li>
       </ul>
     </div>
@@ -29,20 +25,22 @@
 
   <!-- Google Map -->
   <div class="google-map mt-md-5">
-    <google-map
-      width="100%"
-      [center]="center"
-      [zoom]="zoom"
-      (mapClick)="onMapClick($event)"
-    >
-      <map-marker
-        [icon]="customIcon"
-        *ngFor="let item of AllPostions"
-        [position]="item"
-      ></map-marker>
+    <google-map width="100%" [center]="center">
+      <map-marker [icon]="customIcon"></map-marker>
     </google-map>
   </div>
-  <!-- Button at the Bottom -->
+
+  <div *ngIf="isModalOpen" class="modal-overlay">
+    <div class="modal-content">
+      <h3 class="text-center">حدد عدد الغرف</h3>
+      <div class="room-selector">
+        <button (click)="decrement()">-</button>
+        <input type="text" [(ngModel)]="roomCount" readonly />
+        <button (click)="increment()">+</button>
+      </div>
+      <button id="confirm-button" class="d-block mx-auto">موافق</button>
+    </div>
+  </div>
   <div class="d-flex justify-content-between listOfProducts">
     <button class="btn">قائمة العقارات</button>
     <button class="btn btn-icon mx-3">

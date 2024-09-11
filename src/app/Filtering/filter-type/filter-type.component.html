@@ -5,7 +5,9 @@
   <section id="search">
     <div class="container-fluid">
       <ul class="d-flex flex-wrap serarchList d-none d-md-flex">
-        <li class="search-item"><button class="btn" routerLink="/filter_price">حسب السعر</button></li>
+        <li class="search-item">
+          <button class="btn" routerLink="/filter_price">حسب السعر</button>
+        </li>
         <li class="search-item">
           <button class="btn">حسب الملكية العقارية</button>
         </li>
@@ -42,6 +44,23 @@
       ></map-marker>
     </google-map>
   </div>
+  <div id="custom-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-options">
+        <div class="option">خليج</div>
+        <div class="option">منتجع</div>
+        <div class="option">فيلا</div>
+        <div class="option">شقة</div>
+        <div class="option">منزل</div>
+        <div class="option">برج</div>
+        <div class="option">طابق</div>
+        <div class="option">أرض</div>
+        <div class="option">استوديو</div>
+      </div>
+      <button id="confirm-button">موافق</button>
+    </div>
+  </div>
+  <button id="toggle-modal" class="property-button">قائمة العقارات</button>
   <!-- Button at the Bottom -->
   <div class="d-flex justify-content-between listOfProducts">
     <button class="btn">قائمة العقارات</button>
